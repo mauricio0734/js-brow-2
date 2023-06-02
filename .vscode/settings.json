@@ -1,0 +1,11 @@
+{
+    "prettier.bracketSameLine": true,
+    "prettier.htmlWhitespaceSensitivity": "strict",
+    "prettier.useTabs": false,
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 16,
+    "workbench.iconTheme": "eq-material-theme-icons-ocean",
+    "workbench.colorCustomizations": {
+        
+    }
+}

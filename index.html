@@ -1,27 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <title>DTareas</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Tareas</title>
+  </head>
+  <body>
     <div class="container">
-        <div class="card"> 
-<form>
-    <input type="text" placeholder="Ingresa nueva tarea" id="tarea">
-    <button id="addButton" class="primary">Add</button>
-</form>
-        </div>
-<div class="card">
-    <ul id="listItems"></ul>
-<button id="deleteButton" class="secondary">Delete all done</button>
-
-</div>
-
+      <div class="card">
+        <form>
+          <input type="text" placeholder="Ingresa nueva tarea" id="tarea" />
+          <button class="primary" id="addButton">Add</button>
+        </form>
+      </div>
+      <div class="card">
+        <ul id="listItems"></ul>
+        <button class="secondary" id="deleteButton">Delete all done</button>
+      </div>
     </div>
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
